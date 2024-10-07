@@ -101,8 +101,10 @@
     justify-content: space-between;
 }
 .CI{
+    max-width: 80%;
     margin-top: 40px;
     color: #505A5B;
+    margin: auto;
 }
 .btnPrenota{
     background-color:#505A5B;
@@ -150,6 +152,7 @@
     .footerSize2{
         font-size: 10px;
     }
+    
   
      /* unavista */
      .unavista{
@@ -162,7 +165,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
      }
+     
      .btnPrenota{
         background-color:#505A5B;
         border: none;
